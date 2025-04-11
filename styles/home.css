@@ -57,13 +57,12 @@ header {
   grid-template-columns: [col-start] 1fr [col-2] 1fr [col-end];
   align-items: center;
   justify-items: center;
-  
 }
 
-.mid-header-pic{
-    width: 300px;
-    height: 300px;
-    justify-self: end;
+.mid-header-pic {
+  width: 300px;
+  height: 300px;
+  justify-self: end;
 }
 .header-grid-dim {
   max-width: 480px;
@@ -97,15 +96,61 @@ header {
   font-weight: bold;
   border-radius: 8px;
   display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease
 }
 .get-started {
   background-color: #58cc02;
-  box-shadow: 2px 4px 10px #04891ca9
+  box-shadow: 2px 4px 10px #04891ca9;
+}
+.get-started:hover {
+    background-color:#0ce534a9;    
+  }
+  
+.have-account {
+  background-color: #fffdfd;
+  color: #0070f8;
+  border: 0.5px solid #d6d5d5;
+  box-shadow: 2px 4px 10px #4e4d4d33;
+}
+.have-account:hover {
+    background-color: #d6d5d5;
+  }
+.flag-dim {
+  width: 36px;
+  height: 30px;
+  border-radius: 5px;
 }
 
-.have-account{
-    background-color: #fffdfd;
-    color: rgb(0, 112, 248);
-    border: 0.5px solid #d6d5d5 ;
-    box-shadow: 2px 4px 10px #4e4d4d33
+.list {
+  list-style-type: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0;
+  scrollbar-width: thin;
+  width: 75%;
+  align-self: center;
+}
+
+.item-name {
+  width: max-content;
+  align-self: center;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.bottum-header {
+  height: 100px;
+  align-items: center;
+  width: 100%;
+  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.8px;
+  color: #a29f9f;
+  font-weight: bold;
+  border-top: 2px solid #050505;
+  border-bottom: 2px solid #050505;
+  justify-content: center;
 }
