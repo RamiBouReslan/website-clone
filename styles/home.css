@@ -10,8 +10,8 @@ header {
   height: 100%;
 }
 .flex {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .top-header {
   justify-content: space-around;
@@ -19,11 +19,10 @@ header {
   height: 70px;
   border: 0px;
   border-bottom: 1px solid #979696;
-  
 }
 
 .logo-header {
-  height: 40px;
+  height: 50px;
   width: 190px;
 }
 
@@ -50,3 +49,63 @@ header {
   padding: 2.5%;
 }
 
+.mid-header {
+  width: 90%;
+  height: auto;
+  margin: 100px 10px;
+  display: grid;
+  grid-template-columns: [col-start] 1fr [col-2] 1fr [col-end];
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.mid-header-pic{
+    width: 300px;
+    height: 300px;
+    justify-self: end;
+}
+.header-grid-dim {
+  max-width: 480px;
+  max-height: 480px;
+}
+
+.left-side-header {
+  gap: 15px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.mid-header-title {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+
+.selection-bottuns {
+  width: 330px;
+  height: 50px;
+  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.8px;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  text-decoration: none;
+  color: #f5f0f0;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+}
+.get-started {
+  background-color: #58cc02;
+  box-shadow: 2px 4px 10px #04891ca9
+}
+
+.have-account{
+    background-color: #fffdfd;
+    color: rgb(0, 112, 248);
+    border: 0.5px solid #d6d5d5 ;
+    box-shadow: 2px 4px 10px #4e4d4d33
+}
