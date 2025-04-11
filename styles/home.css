@@ -17,13 +17,21 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 70px;
+  width: 100%;
   border: 0px;
   border-bottom: 1px solid #979696;
+  position:fixed;
+  background-color: white;
 }
 
 .logo-header {
   height: 50px;
   width: 190px;
+}
+
+.font-type{
+    font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .top-bottun {
@@ -36,8 +44,6 @@ header {
   padding-top: 10px;
   text-transform: uppercase;
   width: 260px;
-  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.8px;
   justify-content: center;
   align-items: start;
@@ -78,15 +84,12 @@ header {
 }
 .mid-header-title {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 30px;
 }
 
 .selection-bottuns {
   width: 330px;
   height: 50px;
-  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.8px;
   text-align: center;
   align-self: center;
@@ -145,8 +148,6 @@ header {
   height: 100px;
   align-items: center;
   width: 100%;
-  font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.8px;
   color: #a29f9f;
   font-weight: bold;
