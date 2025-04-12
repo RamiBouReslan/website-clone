@@ -234,17 +234,46 @@ header {
 .hover-effect {
   border: 2px solid #ccc;
   align-items: center;
-  justify-content: center;
   border-radius: 1em;
   width: 15em;
   height: 5em;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1); 
   background-color: white; 
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .hover-effect:hover {
-  transform: scale(1.1); /* Enlarges the button slightly */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a hover effect */
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px #00000033; 
+}
+
+.third-section{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color:  #13143a;
+}
+
+.third-section img{
+  width: 30%;
+  height:fit-content;
+}
+
+.try-weeks{
+  align-items: center;
+  gap: 1em;
+}
+.try-weeks img{
+  width: 80%;
+}
+
+.try-weeks button{
+  border: 3 px solid #ccc;
+  align-items: center;
+  border-radius: 1em;
+  width: 15em;
+  height: 5em;
+  background-color: white; 
+  font-weight: bold;
+  letter-spacing: 0.8px;
 }
