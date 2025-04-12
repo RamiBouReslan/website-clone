@@ -171,6 +171,7 @@ header {
 .first-section-article {
   align-items: center;
   gap: 12.5em;
+  justify-content: center;
   
 }
 .first-section-article div{
@@ -199,4 +200,51 @@ header {
 
 .first-section-article:nth-of-type(even){
     flex-direction: row-reverse;
+}
+
+
+
+.second-section {
+  margin-top: 5em;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100vh;   
+  background: url(../pictures/app-icon.jpg) no-repeat center center;
+  background-size:contain; 
+  overflow: hidden;  
+  padding-top: 3.5em;
+}
+
+.second-section-h2 {
+  align-self: center;
+  margin-bottom: 1em;
+  width: 70%;
+  font-size: 3em;
+  color: #222121;
+}
+
+.buttons {
+  justify-content: center;
+  gap: 1em;
+  
+  
+}
+
+.hover-effect {
+  border: 2px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+  width: 15em;
+  height: 5em;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: white; 
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.hover-effect:hover {
+  transform: scale(1.1); /* Enlarges the button slightly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a hover effect */
 }
