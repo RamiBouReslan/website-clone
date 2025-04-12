@@ -107,7 +107,7 @@ header {
   box-shadow: 2px 4px 10px #04891ca9;
 }
 .get-started:hover {
-  background-color: #0ce534a9;
+  background-color: #0b732c;
 }
 
 .have-account {
@@ -168,37 +168,37 @@ header {
   gap: 5em;
 
 }
-.first-section-article {
+.article-section {
   align-items: center;
   gap: 12.5em;
   justify-content: center;
   
 }
-.first-section-article div{
+.article-section div{
     width: 400px;
     padding-left: 20px;
 }
-.first-section-article h2{
+.article-section h2{
     font-size: 2.6em;
     color: #58cc02;
     padding-bottom: 10px;
 }
 
-.first-section-article a{
+.article-section a{
     text-decoration: none;
     font-weight: bold;
 }
-.first-section-article p{
+.article-section p{
     color: #666565;
 }
 
-.first-section-article img{
+.article-section img{
     height: auto;
     width: 400px;
 
 }
 
-.first-section-article:nth-of-type(even){
+.article-section:nth-of-type(even){
     flex-direction: row-reverse;
 }
 
@@ -218,10 +218,12 @@ header {
 
 .second-section-h2 {
   align-self: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
   width: 70%;
-  font-size: 3em;
+  font-size: 4em;
   color: #222121;
+  
 }
 
 .buttons {
@@ -230,13 +232,17 @@ header {
   
   
 }
-
+.buttons img{
+  width: 10em;
+  height: 2.6em;
+}
 .hover-effect {
   border: 2px solid #ccc;
   align-items: center;
+  justify-content: center;
   border-radius: 1em;
-  width: 15em;
-  height: 5em;
+  width: 12em;
+  height: 4em;
   background-color: white; 
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
@@ -268,7 +274,7 @@ header {
 }
 
 .try-weeks button{
-  border: 3 px solid #ccc;
+  border: 3px solid #ccc;
   align-items: center;
   border-radius: 1em;
   width: 15em;
@@ -276,4 +282,107 @@ header {
   background-color: white; 
   font-weight: bold;
   letter-spacing: 0.8px;
+}
+
+.fourth-section-div{
+  justify-content: flex-start;
+  gap: 1em;
+}
+.fourth-section-header{
+  width: 15em;
+}
+
+.fourth-section-button{
+  align-self: flex-start;
+}
+
+.footer {
+
+  margin-top: 10%;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+
+.footer-section {
+  align-items: center;
+  gap: 1em;
+}
+
+.footer-head {
+  font-size: 4em;
+  max-width: 35%;
+  text-align: center;
+  color: #48b000;
+}
+
+.footer-button {
+  font-size: 1.2em;
+  padding: 0.6em 1.2em;
+  border: none;
+  background-color: #58cc02;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 15em;
+}
+
+.footer-button:hover {
+  background-color: #48b000;
+}
+
+.footer-image {
+  width: 100vw;
+  height: auto;
+  
+}
+
+
+.footer-second-section{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #6fd600; 
+  padding: em 2em;
+  flex: 1 1 200px; 
+  color: white;
+}
+.footer-second-section article{
+  gap: 0.4em;
+  min-width: 160px;
+  margin: 1.2em;
+  flex: 1 1 180px;  
+  max-width: 220px; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+.footer-second-section h4{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+  color: white;
+}
+
+.footer-second-section a{
+  margin: 0;
+  font-size: 0.8em;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  color: #ffffffe6; 
+  white-space: normal;    
+  display: inline-block;   
+  width: 100%;   
+  text-decoration: none;
+  transition: 0.2s ease;
+  
+}
+
+.footer-second-section a:hover {
+  color: white;
+  text-decoration: underline;
 }
